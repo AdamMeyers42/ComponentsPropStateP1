@@ -12,7 +12,10 @@ class NamesList extends Component{
     render(){
         return(
             <div>
-                <ul>{this.state.names}</ul> 
+                <h1>List of Names</h1>
+                {this.state.names.map(function(name){
+                    return <p>{name}</p>
+                })} 
             </div>
         )
     }
