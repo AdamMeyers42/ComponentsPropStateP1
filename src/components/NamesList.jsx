@@ -18,4 +18,4 @@ class NamesList extends Component{
     }
 }
 
-export default NamesList
+export default NamesList;

@@ -19,4 +19,4 @@ class DisplayName extends Component{
     }
 }
 
-export default DisplayName
+export default DisplayName;
