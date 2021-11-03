@@ -12,7 +12,7 @@ class NamesList extends Component{
     render(){
         return(
             <div>
-                <h1>{this.state.firstName} {this.state.lastName}</h1> 
+                <ul>{this.state.names}</ul> 
             </div>
         )
     }
